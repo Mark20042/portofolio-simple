@@ -1,0 +1,10 @@
+/* 1. This must be the very first line */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* 2. Your Tailwind directives come after */
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3. Any other styles come last */
