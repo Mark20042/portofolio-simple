@@ -25,7 +25,7 @@ export const experienceList: exp[] = [
     current: false,
   },
   {
-    title: "Tech Stack & Programming Experience",
+    title: "Web Programming Experience",
     description: "React, Laravel, MERN, Flutter",
     year: "2024 - 2025",
     current: false,
