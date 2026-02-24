@@ -33,15 +33,14 @@ const Header = () => {
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
   return (
-    // CHANGED: 'items-stretch' -> 'items-center' to stop text height from squishing the image
+    
     <div className="flex flex-row items-center md:justify-between gap-3 md:gap-8 p-4 md:py-8 mt-2 md:mt-8">
-      {/* Picture */}
-      {/* CHANGED: Added 'aspect-square' to force a 1:1 ratio so it never squishes */}
+      
       <div className="rounded-lg overflow-hidden w-33 sm:w-36 md:w-56 aspect-square relative shrink-0">
         <img
           src={Me.picture}
           alt="Ako Rani"
-          // CHANGED: Added 'object-top' to ensure the face is never cut off
+        
           className="absolute inset-0 w-full h-full object-cover object-top"
         />
       </div>
