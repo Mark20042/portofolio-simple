@@ -3,6 +3,7 @@
 
 /* 2. Your Tailwind directives come after */
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -8,7 +8,7 @@ interface exp {
 export const experienceList: exp[] = [
   {
     title: "BS Information Technology - 3rd Year",
-    description: "Cebu, Philippines", // You can update this to your school
+    description: "Cebu Roosevelt Memorial Colleges",
     year: "2025",
     current: true, // This marks the "filled" black dot
   },

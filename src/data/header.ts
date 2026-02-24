@@ -13,10 +13,10 @@ interface AkoRani {
 }
 
 export const Me: AkoRani = {
-  name: "Mark Joseph M. Potot",
-  role: "BSIT Student / Aspiring Full-Stack Developer",
+  name: "Mark Joseph Potot",
+  role: "Full Stack Developer",
   location: "Cebu, Philippines",
-  github: "",
+  github: "https://github.com/Mark20042",
   email: "mailto:mark.potot2004@gmail.com",
   resume: "https://github.com/Mark20042",
   picture: myImage,
