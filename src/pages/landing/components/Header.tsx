@@ -33,8 +33,8 @@ const Header = () => {
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
   return (
-    <div className="flex flex-row items-center md:justify-between gap-3 md:gap-8 p-4 md:py-8 mt-2 md:mt-8">
-      <div className="rounded-lg overflow-hidden w-33 sm:w-36 md:w-56 aspect-square relative shrink-0">
+    <div className="flex flex-row items-start md:items-center md:justify-between gap-3 md:gap-8 p-4 md:py-8 mt-2 md:mt-8">
+      <div className="rounded-lg overflow-hidden w-36 sm:w-40 md:w-56 aspect-[3/4] md:aspect-square relative shrink-0">
         <img
           src={Me.picture}
           alt="Ako Rani"
