@@ -44,7 +44,7 @@ const Header = () => {
 
       <div className="flex flex-col justify-center flex-3 text-left py-2 min-w-0">
         <div className="flex flex-row items-center gap-1 sm:gap-2 w-full pr-1">
-          <h1 className="font-sans text-[14px] sm:text-xl md:text-4xl font-bold text-gray-700 dark:text-gray-100 truncate min-w-0">
+          <h1 className="font-sans text-[11px] sm:text-xl md:text-4xl font-bold text-gray-700 dark:text-gray-100 whitespace-nowrap min-w-0">
             {Me.name}
           </h1>
           <img
